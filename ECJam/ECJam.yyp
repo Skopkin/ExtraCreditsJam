@@ -95,6 +95,22 @@
             }
         },
         {
+            "Key": "392b540b-6414-418d-a559-d3f94c9ef114",
+            "Value": {
+                "id": "49686885-4a3e-40bd-b72e-06d0fcc647c0",
+                "resourcePath": "objects\\obj_yellow\\obj_yellow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4056ae70-5fdc-4d50-a58f-b11664ce17dc",
+            "Value": {
+                "id": "013de9af-579e-4664-99c1-0f1d77ee8261",
+                "resourcePath": "objects\\obj_red\\obj_red.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "420673b5-76db-433a-ab29-121328364d8b",
             "Value": {
                 "id": "62d8050c-9fba-4141-bfed-1c35ad53dd7f",
@@ -119,10 +135,34 @@
             }
         },
         {
-            "Key": "5986c2ac-bc5e-483d-9116-05dc1775de4d",
+            "Key": "5483cbde-fcc3-46ba-ae97-448a1efe77ec",
             "Value": {
-                "id": "978fb0c7-b708-4c93-99ae-eca23e50859a",
-                "resourcePath": "objects\/obj_player_test\/obj_player_test.yy",
+                "id": "b15bad8f-797f-4aa1-a382-290fe7529263",
+                "resourcePath": "sprites\\spr_roulette_wheel\\spr_roulette_wheel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "58ce3657-284a-48b0-ac43-3827fbf9eb8a",
+            "Value": {
+                "id": "c32090f9-ce8b-4153-b5ff-01b632fcfeb9",
+                "resourcePath": "objects\\obj_blue\\obj_blue.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "701d6be1-2dd2-419b-ab66-dda987d1788d",
+            "Value": {
+                "id": "178c8feb-3e5a-4427-9643-a1f0a275c44c",
+                "resourcePath": "sprites\\spr_red\\spr_red.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "72901512-dd01-49b9-9d84-f26e01a41c23",
+            "Value": {
+                "id": "f58133cf-82dc-4145-9f86-5127ec046cdb",
+                "resourcePath": "objects\\obj_roulette_option\\obj_roulette_option.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -159,6 +199,14 @@
             }
         },
         {
+            "Key": "85ae5f04-3e71-49b7-8dc5-e8826f91befc",
+            "Value": {
+                "id": "aea0d205-4540-4cd0-947a-38722758248b",
+                "resourcePath": "sprites\\spr_yellow\\spr_yellow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8bfaecee-e9e3-4206-920c-4515fd1c8cac",
             "Value": {
                 "id": "a2f09a6f-1b2f-4d7a-9dcc-2d5a9890882e",
@@ -172,14 +220,6 @@
                 "id": "5d3b05e9-0934-42f9-a667-aea010875128",
                 "resourcePath": "objects\/obj_camera_shake\/obj_camera_shake.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8e59d220-7c6d-4987-82ce-4a9bd578dfed",
-            "Value": {
-                "id": "ec7e884e-37ba-40ec-821b-4faa3d20043a",
-                "resourcePath": "sprites\/planets_background_hd_1024x768_152440\/planets_background_hd_1024x768_152440.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -279,6 +319,14 @@
             }
         },
         {
+            "Key": "e1d23b09-8dc8-4f91-8e91-f633266df57f",
+            "Value": {
+                "id": "ce430dbf-7c65-49a0-ae2d-8248d0555901",
+                "resourcePath": "sprites\\spr_blue\\spr_blue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e82c3fd0-85a2-4eb1-97fe-680950a663bc",
             "Value": {
                 "id": "32ec1eeb-53e3-441f-9204-2affdecd761b",
@@ -287,11 +335,27 @@
             }
         },
         {
+            "Key": "ebae1612-4326-431f-831c-79707c60a62b",
+            "Value": {
+                "id": "81a76e25-de25-45c2-a8e2-bf5f742e8c14",
+                "resourcePath": "objects\\obj_roulette\\obj_roulette.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "c34635ea-9f8e-4e45-936d-46bf5355eeac",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4c586cf-3754-4a5b-b061-606bbfbda2d2",
+            "Value": {
+                "id": "a7a1c7de-408f-4733-b5f7-6fbe0b832170",
+                "resourcePath": "objects\\obj_roulette_controller\\obj_roulette_controller.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

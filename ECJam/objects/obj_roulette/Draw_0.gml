@@ -1,0 +1,2 @@
+draw_sprite_part(sprite_index, image_index, xPos, 0, sprite_height, sprite_height, view_wport[0]/2-32, view_hport[0]*.75);
+draw_sprite_part(sprite_index, image_index, xPos-sprite_width, 0, sprite_width/totalOptions, sprite_height, view_wport[0]/2-32,view_hport[0]*.75);
