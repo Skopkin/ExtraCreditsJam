@@ -6,8 +6,10 @@ if (spinning) {
 } else if (slowing && currentSpeed > 0) {
 	currentSpeed -= slowSpeed;
 } else if (currentSpeed <= 0 && stopped == false) {
+	ready = false;
 	slowing = false;
 	stopped = true;
+	event_user(1);
 }
 
 if (spawn) {
