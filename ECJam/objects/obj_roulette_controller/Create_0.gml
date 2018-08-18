@@ -11,7 +11,7 @@ spinning = true;
 slowing = false;
 stopped = false;
 ready = false;
-spawn = false;
+//spawn = false;
 
 // Default spin speed, current speed, and slowing decrement
 spinSpeed = 10;
