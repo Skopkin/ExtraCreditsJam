@@ -1,4 +1,7 @@
-state = "Idle";
+event_inherited();
 
-hurt_duration = 60;
-attack_duration = 15;
+en_idle_sprite = spr_blob_idle;
+en_hurt_sprite = spr_blob_hurt;
+en_attack_sprite = spr_blob_attack;
+en_makeup_sprite = spr_blob_makeup;
+
