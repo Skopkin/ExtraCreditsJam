@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "28861544-ae33-41b3-b9f3-d30eb88652bb",
+            "Value": {
+                "id": "9778ce4e-9a83-4549-b8c5-7888c2f3941d",
+                "resourcePath": "objects\\obj_skybox\\obj_skybox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3363cbf0-e692-42c6-ab9d-c117eaad208a",
             "Value": {
                 "id": "0996ae01-e412-487f-99f4-2b044fb013ca",
@@ -287,6 +295,14 @@
             }
         },
         {
+            "Key": "a5ef81d7-6c44-48f0-95ab-3d40f5251671",
+            "Value": {
+                "id": "913e8e35-bd1a-4f8a-a83c-79e5addc69ff",
+                "resourcePath": "sprites\\spr_background\\spr_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a8762a12-5212-4f6f-995f-dcbb83263f68",
             "Value": {
                 "id": "5a7f07f8-60de-4c60-86aa-0eb339eb6346",
@@ -300,6 +316,14 @@
                 "id": "9f22bd32-f410-4811-a0cb-e8348c872701",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b1026c04-5767-4251-9c0e-ea45d9172315",
+            "Value": {
+                "id": "0502faec-81cc-4e4d-943d-59dc5aa4a271",
+                "resourcePath": "sprites\\spr_skybox\\spr_skybox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
