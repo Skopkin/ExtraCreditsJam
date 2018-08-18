@@ -495,6 +495,25 @@
             }
         },
         {
+            "Key": "8b28bcfc-9ab1-4f0a-b2d4-73ff08596f51",
+            "Value": {
+                "id": "02c2e2ff-8d21-4ab9-8e9f-b90bf34da3ff",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "paths\/pth_moon\/pth_moon.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "8bfaecee-e9e3-4206-920c-4515fd1c8cac",
             "Value": {
                 "id": "a2f09a6f-1b2f-4d7a-9dcc-2d5a9890882e",
@@ -663,6 +682,25 @@
                 ],
                 "resourcePath": "views\/a005bf64-fbe8-4672-ad8a-cdd4066276a3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a059b472-8db4-4b64-addf-38b5807398c7",
+            "Value": {
+                "id": "bc3cdf7a-3e78-462a-9606-45c05c7098ba",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_moon\/spr_moon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
