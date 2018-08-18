@@ -11,10 +11,10 @@ with (obj_roulette_pointer) {
 show_debug_message(num);
 switch (num) {
 	// attack
-	case 0:	alarm[0] = 60; break;
+	case 0:	alarm[0] = 60; player_attack(num); break;
 	// makeup
-	case 1: alarm[0] = 300; break;
+	case 1: alarm[0] = 300; player_makeup(); break;
 	// fang
-	case 2: alarm[0] = 120; break;
+	case 2: alarm[0] = 120; player_attack(num); break;
 	default: alarm[0] = 30;
 }
