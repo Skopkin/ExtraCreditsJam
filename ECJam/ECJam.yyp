@@ -90,17 +90,6 @@
             "Key": "12727984-990f-4194-a920-3e0099fde5d3",
             "Value": {
                 "id": "a7efea37-534b-4651-b7e5-ece8c7904734",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "objects\/obj_enemy_controller\/obj_enemy_controller.yy",
                 "resourceType": "GMObject"
             }
@@ -229,17 +218,6 @@
             "Key": "4ff9d737-9b42-42d0-a97a-89353e492110",
             "Value": {
                 "id": "d3584e9d-eac0-4675-81a8-ad697fc05686",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
                 "resourcePath": "objects\/obj_default_enemy\/obj_default_enemy.yy",
                 "resourceType": "GMObject"
             }
@@ -514,6 +492,14 @@
                 "id": "0502faec-81cc-4e4d-943d-59dc5aa4a271",
                 "resourcePath": "sprites\/spr_skybox\/spr_skybox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b63e2e90-8365-4256-9e5c-7c05f100bf8b",
+            "Value": {
+                "id": "831b2322-df6f-4323-9e3f-4f365bb7e6e7",
+                "resourcePath": "objects\\obj_roulette_backdrop\\obj_roulette_backdrop.yy",
+                "resourceType": "GMObject"
             }
         },
         {
