@@ -9,6 +9,12 @@ if(!instance_exists(obj_enemy)){exit;}
 
 my_enemy = instance_find(obj_enemy,0);
 
+
+if(my_enemy.state == "Block"){
+	//play block sound***
+	exit;
+};
+
 switch (atk_type) {
 	case 0: 
 		my_enemy.hp -= attack_damage;

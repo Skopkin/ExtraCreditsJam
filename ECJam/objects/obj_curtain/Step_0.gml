@@ -8,14 +8,15 @@ switch(state){
 		if(y >= target_y){
 				// set alarm for how long it stays at bottom
 			alarm[0] = 60;
+			alarm[1] = 50;
 				//change state to change to open sprite
 			state = "Opening";
+			image_index = 1;
 		}
 	#endregion
 		break;
 	
 	case "Opening": // just do nothing. wait.
-		image_index = 1;
 		break;
 		
 	case "Raising":
