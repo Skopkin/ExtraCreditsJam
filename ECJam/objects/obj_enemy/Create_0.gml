@@ -17,4 +17,4 @@ fade_speed = .05;
 /// animating the entrance
 start_y = 416;
 start_x = room_width/3 * 2;
-//image_alpha = 0;
+image_alpha = 0;
