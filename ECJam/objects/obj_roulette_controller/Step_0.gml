@@ -12,7 +12,7 @@ if (spinning) {
 	event_user(1);
 }
 
-if (spawn) {
+/*if (spawn) {
 	spawn = false;
 	// Create the next slot item in the array
 	with (instance_create_layer(x+360-currentSpeed, y+9, "Roulette", rouletteArray[index])) {
@@ -33,7 +33,7 @@ if (spawn) {
 	if (index > array_length_1d(rouletteArray)-1) {
 		index = 0;
 	}
-}
+}*/
 
 // Apply the current speed to all existing slot items
 for (i = 0; i < instance_number(obj_roulette_option); i++) {
