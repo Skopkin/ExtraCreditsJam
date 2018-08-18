@@ -15,7 +15,7 @@ if (spinning) {
 if (spawn) {
 	spawn = false;
 	// Create the next slot item in the array
-	with (instance_create_layer(x+360, y+9, "Roulette", rouletteArray[index])) {
+	with (instance_create_layer(x+360-currentSpeed, y+9, "Roulette", rouletteArray[index])) {
 		// If roulette is spinning, apply default speed to the item
 		// If roulette is slowing down, apply the current slowed down speed
 		// If roulette is stopped, set item speed to 0
