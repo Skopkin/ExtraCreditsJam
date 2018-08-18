@@ -590,6 +590,25 @@
             }
         },
         {
+            "Key": "98d5a4f8-507b-4556-8c03-1a7bf3b5bc74",
+            "Value": {
+                "id": "4d5f30e4-5ca5-4450-b4d3-c04799a324e4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_moon\/obj_moon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9d80dacb-aa85-4744-8ab3-b9fcd5652a2f",
             "Value": {
                 "id": "3c37ffda-75ef-46a6-b531-49b58ee379a4",
