@@ -2,6 +2,7 @@
 instance_create_layer(room_width/2,room_height/2,"Instances", obj_camera_shake);
 instance_create_layer(0,0,"Instances", obj_set_input);
 instance_create_layer(0,0,"Moon_Instance",obj_moon);
+instance_create_layer(0,0,"Instances", obj_enemy_controller);
 
 
 view_width = camera_get_view_width(view_camera[0]);

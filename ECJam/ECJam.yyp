@@ -172,6 +172,25 @@
             }
         },
         {
+            "Key": "12727984-990f-4194-a920-3e0099fde5d3",
+            "Value": {
+                "id": "a7efea37-534b-4651-b7e5-ece8c7904734",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_enemy_controller\/obj_enemy_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "145e7a8d-cc86-4c12-b60a-042b3120738e",
             "Value": {
                 "id": "cf6b13cd-84a5-4cdb-b7a9-3e08b8bdb338",
@@ -453,6 +472,25 @@
                     "default"
                 ],
                 "resourcePath": "objects\/obj_curtain\/obj_curtain.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4ff9d737-9b42-42d0-a97a-89353e492110",
+            "Value": {
+                "id": "d3584e9d-eac0-4675-81a8-ad697fc05686",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_default_enemy\/obj_default_enemy.yy",
                 "resourceType": "GMObject"
             }
         },

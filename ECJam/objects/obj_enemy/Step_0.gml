@@ -1,3 +1,19 @@
+if(x > 480){
+	x -= swipe_spd;
+	image_alpha += fade_speed;
+}
+
+
+
+if(hp <= 0){
+	x -= swipe_spd;
+	image_alpha -= fade_speed;
+	image_xscale -= .01;
+	image_yscale -= .01;
+	if(image_alpha <= 0){
+		instance_destroy();
+	}
+}
 switch(state){
 	case "Idle":
 	#region Idle
@@ -36,3 +52,5 @@ switch(state){
 		#endregion
 		break;
 }
+
+show_debug_message(string(hp) + " HP");
