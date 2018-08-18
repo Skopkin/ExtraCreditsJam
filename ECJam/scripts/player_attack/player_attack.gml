@@ -12,7 +12,6 @@ my_enemy = instance_find(obj_enemy,0);
 switch (atk_type) {
 	case 0: 
 		my_enemy.hp -= attack_damage;
-		show_debug_message("PUNCH");
 		break;
 	case 2: 
 		my_enemy.hp -= fang_damage;

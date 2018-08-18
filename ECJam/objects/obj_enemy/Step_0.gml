@@ -1,11 +1,11 @@
-if(x > 480){
+if(x > 480){ // coming in
 	x -= swipe_spd;
 	image_alpha += fade_speed;
 }
 
 
 
-if(hp <= 0){
+if(hp <= 0){ // fading out/dying
 	x -= swipe_spd;
 	image_alpha -= fade_speed;
 	image_xscale -= .01;
@@ -52,5 +52,3 @@ switch(state){
 		#endregion
 		break;
 }
-
-show_debug_message(string(hp) + " HP");
