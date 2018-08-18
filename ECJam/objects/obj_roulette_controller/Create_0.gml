@@ -9,6 +9,7 @@ sprWidth = 174;
 spinning = true;
 slowing = false;
 stopped = false;
+ready = false;
 spawn = false;
 
 // Default spin speed, current speed, and slowing decrement
@@ -16,4 +17,7 @@ spinSpeed = 10;
 currentSpeed = spinSpeed;
 slowSpeed = 0.1;
 
+instance_create_layer(x, y-sprite_height*.25, "Roulette", obj_roulette_pointer);
+button = instance_create_layer(x-sprite_width*.38, y-sprite_height*.1, "Roulette", obj_button);
+button.depth = -10;
 event_user(0);

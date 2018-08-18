@@ -1,4 +1,5 @@
 /// @description reset slots
+ready = false;
 if (instance_number(obj_roulette_option) > 0) {
 	num = instance_number(obj_roulette_option);
 	for(i = 0; i < num; i++) {
@@ -15,3 +16,5 @@ instance_create_layer(x+360-sprWidth, y+9, "Roulette", rouletteArray[index]);
 index++;
 instance_create_layer(x+360, y+9, "Roulette", rouletteArray[index]);
 index++;
+
+alarm[0] = 90;
