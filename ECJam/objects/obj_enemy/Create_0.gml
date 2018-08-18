@@ -6,3 +6,10 @@ en_makeup_sprite = spr_en_makeup_default;
 state = "Idle";
 hurt_duration = 60;
 attack_duration = 15;
+
+hp = 4;
+
+swipe_spd = 2;
+
+// has to be less than 1
+fade_speed = .05;
