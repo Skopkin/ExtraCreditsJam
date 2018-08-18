@@ -305,6 +305,25 @@
             }
         },
         {
+            "Key": "24b98906-881b-4030-bc9a-5b57942e9863",
+            "Value": {
+                "id": "4bf89801-5a1a-44a6-a52d-4151323be1d6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_test\/spr_test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25cd5792-4150-4b9e-9dda-c7dc04ea595a",
             "Value": {
                 "id": "449eac8a-0e82-42e6-a48c-47a73c134001",
