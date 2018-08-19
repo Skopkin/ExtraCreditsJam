@@ -1,4 +1,4 @@
-if(x > 480){ // coming in
+if(x > target_x){ // coming in
 	x -= swipe_spd;
 	image_alpha += fade_speed;
 }
@@ -24,12 +24,16 @@ switch(state){
 	case "Hurt":
 	#region Hurt
 		sprite_index = en_hurt_sprite;
+		x = target_x + random_range(1,5);
+		y = start_y + random_range(-5,0);
 		#endregion
 		break;
 	
 	case "Attack":
 	#region Attack
 		sprite_index = en_attack_sprite;
+		x = target_x;
+		y = start_y;
 		#endregion
 		break;
 	
