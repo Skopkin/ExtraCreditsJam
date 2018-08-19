@@ -18,5 +18,4 @@ if (paused) {
 }
 
 hp_percent = (player_hp/max_hp)*100;
-draw_healthbar(hp_bar_x-32, hp_bar_y-100, hp_bar_x+35, hp_bar_y+109,hp_percent,c_black,c_red,c_red,3,true,false);
-draw_sprite(spr_player_health_bar,-1,hp_bar_x, hp_bar_y);
+draw_healthbar(855, 700, 945, 734,hp_percent,c_black,hp_color,hp_color,0,true,false);
