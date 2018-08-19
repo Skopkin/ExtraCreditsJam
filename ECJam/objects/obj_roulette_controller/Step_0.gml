@@ -41,4 +41,10 @@ for (i = 0; i < instance_number(obj_roulette_option); i++) {
 	slot.currentSpeed = currentSpeed;
 }
 
+if (ready) {
+	button.image_blend = -1;	
+} else {
+	button.image_blend = c_gray;	
+}
+
 

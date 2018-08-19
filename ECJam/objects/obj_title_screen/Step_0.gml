@@ -21,7 +21,7 @@ if(keyboard_check_pressed(vk_enter)){
 	
 	switch(selected_option){
 		case 0: //Start Game
-			screen_transition(.05,room_main);
+			screen_transition(.05,room_main, "");
 			break;
 		case 1: //Controls
 			in_submenu = !in_submenu;

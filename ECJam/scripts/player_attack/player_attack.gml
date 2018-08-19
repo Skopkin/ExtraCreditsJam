@@ -9,19 +9,21 @@ if(!instance_exists(obj_enemy)){exit;}
 
 my_enemy = instance_find(obj_enemy,0);
 
-
-if(my_enemy.state == "Block"){
-	//play block sound***
-	exit;
-};
-
 switch (atk_type) {
-	case 0: 
-		my_enemy.hp -= attack_damage;
+	case 0:
+		if(my_enemy.state == "Block"){
+		//play block sound***
+		} else {
+			my_enemy.hp -= attack_damage;
+		}
 		instance_create_layer(0,0,"Roulette",obj_sword_attack);
 		break;
-	case 2: 
-		my_enemy.hp -= fang_damage;
+	case 2:
+		if(my_enemy.state == "Block"){
+		//play block sound***
+		} else {
+			my_enemy.hp -= fang_damage;
+		}
 		instance_create_layer(0,0,"Roulette",obj_bite_attack);
 		manager = instance_find(obj_gameManager,0);
 		if (manager.player_hp < manager.max_hp) {
