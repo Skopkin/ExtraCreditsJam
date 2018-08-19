@@ -1,11 +1,10 @@
 // Activate currently optionected button
+audio_play_sound(snd_menu_confirm,5,false);
 switch(menu_index) {
 	// Resume
 	case 0: paused = false; break;
-	// Options
-	case 1: break;
 	// Restart
-	case 2: game_restart(); break;
+	case 1: game_restart(); break;
 	// Exit
-	case 3: game_end();
+	case 2: game_end();
 }

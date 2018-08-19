@@ -1,4 +1,4 @@
-/// @description CurtainOpenTimer
+/// @description CurtainRisingTimer
 
 //this timer just controls how long you stay at bottom showing off the makeup
 state = "Raising";
