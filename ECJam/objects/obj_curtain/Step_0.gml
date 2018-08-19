@@ -7,7 +7,6 @@ switch(state){
 		y += speed_;
 		if(y >= target_y){
 				// set alarm for how long it stays at bottom
-			show_debug_message(y);
 			alarm[0] = 75;
 				//change state to change to open sprite
 			state = "Opening";
