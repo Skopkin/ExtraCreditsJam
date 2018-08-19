@@ -32,3 +32,11 @@ buttons = array_length_1d(button);
 // Current and previously optionected menu option values
 menu_index = 0;
 last_optionected = 0;
+
+// Roulette hp
+max_hp = 3;
+player_hp = max_hp;
+recharging = false;
+rechargeCD = 120;
+hp_bar_x = 960;
+hp_bar_y = 416;

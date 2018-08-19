@@ -10,7 +10,6 @@ with (obj_roulette_pointer) {
 
 currentEnemy = instance_find(obj_enemy, 0);
 
-show_debug_message(num);
 switch (num) {
 	// attack
 	case 0:	alarm[1] = 60; player_attack(num); break;
