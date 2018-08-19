@@ -34,9 +34,8 @@ menu_index = 0;
 last_optionected = 0;
 
 // Roulette hp
-max_hp = 3;
+max_hp = 4;
 player_hp = max_hp;
 recharging = false;
 rechargeCD = 120;
-hp_bar_x = 960;
-hp_bar_y = 416;
+hp_color = make_color_rgb(236,69,124);
