@@ -4,4 +4,5 @@ if(path_position >= .98){
 
 if(path_position >= .80 and !sun_created){
 	instance_create_layer(0,0,"Moon_Instance",obj_sun);
+	sun_created = true;
 }
