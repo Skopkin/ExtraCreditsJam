@@ -13,4 +13,5 @@ if(room != target_room){
 
 draw_set_alpha(alpha);
 draw_rectangle_color(0,0,gui_Width,gui_Height,c_black,c_black,c_black,c_black,false);
+draw_text(gui_Width/2, gui_Height/2, end_text);
 draw_set_alpha(1);

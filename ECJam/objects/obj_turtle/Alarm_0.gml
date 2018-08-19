@@ -8,4 +8,4 @@ if(block_counter == 2){
 	state = "Idle";
 }
 
-show_debug_message(string(block_counter) + " BLOCK COUNT");
+//show_debug_message(string(block_counter) + " BLOCK COUNT");
