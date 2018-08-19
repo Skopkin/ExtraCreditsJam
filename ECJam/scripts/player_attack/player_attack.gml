@@ -27,7 +27,8 @@ switch (atk_type) {
 			audio_play_sound(snd_bite,8,false);
 			manager = instance_find(obj_gameManager,0);
 			if (manager.player_hp < manager.max_hp) {
-				manager.player_hp++;	
+				manager.player_hp++;
+				audio_play_sound(snd_player_heal, 8, false);
 			}
 		}
 		instance_create_layer(0,0,"Roulette",obj_bite_attack);

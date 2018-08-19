@@ -16,6 +16,7 @@ switch(state){
 	
 	case "Opening": // just do nothing. wait.
 		if (image_index == 0 && alarm[1] == -1) {
+			audio_play_sound(snd_curtain_open, 8, false);
 			alarm[1] = 15;	
 		}
 		break;

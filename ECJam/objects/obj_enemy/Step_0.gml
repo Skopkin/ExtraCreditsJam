@@ -47,6 +47,7 @@ switch(state){
 			var curtain = instance_find(obj_curtain, 0);
 			if(curtain.state == "Opening"){
 				sprite_index = en_makeup_sprite;
+				audio_play_sound(snd_makeover, 8, false);
 			} /*else if(curtain.state = "Raising"){
 				sprite_index = en_idle_sprite;
 			}
