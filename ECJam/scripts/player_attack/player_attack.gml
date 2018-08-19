@@ -18,6 +18,7 @@ if(my_enemy.state == "Block"){
 switch (atk_type) {
 	case 0: 
 		my_enemy.hp -= attack_damage;
+		instance_create_layer(0,0,"Roulette",obj_sword_attack);
 		break;
 	case 2: 
 		my_enemy.hp -= fang_damage;
@@ -30,6 +31,6 @@ switch (atk_type) {
 }
 
 if(my_enemy.state == "Idle"){
-	my_enemy.state = "Hurt";
 	my_enemy.alarm[0] = my_enemy.hurt_duration;
+	my_enemy.alarm[2] = 10;
 }

@@ -1,7 +1,7 @@
 current_enemy = 0;
 
 // put order of enemy encounters here
-enemy[0] = obj_blob;
+enemy[0] = obj_turtle;
 enemy[1] = obj_turtle;
 
 //spawn the first enemy
