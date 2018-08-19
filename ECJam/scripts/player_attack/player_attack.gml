@@ -22,6 +22,7 @@ switch (atk_type) {
 		break;
 	case 2: 
 		my_enemy.hp -= fang_damage;
+		instance_create_layer(0,0,"Roulette",obj_bite_attack);
 		manager = instance_find(obj_gameManager,0);
 		if (manager.player_hp < manager.max_hp) {
 			manager.player_hp++;	

@@ -19,3 +19,5 @@ start_y = 416;
 start_x = room_width/3 * 2;
 target_x = 480;
 image_alpha = 0;
+
+hurt_shake = false;
