@@ -12,6 +12,7 @@ slowing = false;
 stopped = false;
 ready = false;
 recharging = false;
+debuffed = false;
 //spawn = false;
 
 // Default spin speed, current speed, and slowing decrement

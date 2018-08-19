@@ -7,4 +7,12 @@ if(my_enemy.state != "Block"){
 	camera_shake(view_camera[0],15,5,false,0,true,2);
 	manager = instance_find(obj_gameManager,0)
 	manager.player_hp--;
+	if (my_enemy.object_index == obj_wizard) {
+		roulette = instance_find(obj_roulette_controller,0);
+		if (!roulette.debuffed) {
+			roulette.rouletteArray[0] = obj_hurt_self;
+			roulette.debuffed = true;
+			show_debug_message("test");
+		}
+	}
 }
