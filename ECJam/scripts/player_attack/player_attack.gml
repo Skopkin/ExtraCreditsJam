@@ -25,12 +25,12 @@ switch (atk_type) {
 		} else {
 			my_enemy.hp -= fang_damage;
 			audio_play_sound(snd_bite,8,false);
+			manager = instance_find(obj_gameManager,0);
+			if (manager.player_hp < manager.max_hp) {
+				manager.player_hp++;	
+			}
 		}
 		instance_create_layer(0,0,"Roulette",obj_bite_attack);
-		manager = instance_find(obj_gameManager,0);
-		if (manager.player_hp < manager.max_hp) {
-			manager.player_hp++;	
-		}
 		break;
 	default: show_debug_message("oh fuck");
 }

@@ -30,7 +30,7 @@ title_falling = true;
 //toggle for when youve selected something on main menu
 in_submenu = false;
 
-controls_[0] = "Suprise! You're a Vampire! Make it back home past the";
+/*controls_[0] = "Suprise! You're a Vampire! Make it back home past the";
 controls_[1] = "enemies before the sun comes up. Dont waste any time!";
 controls_[2] = "";
 controls_[3] = "CONTROLS";
@@ -41,9 +41,10 @@ controls_[7] = "Programming: Sam Kopkin & John Chapman";
 controls_[8] = "Artwork: Isai Oviedo";
 controls_[9] = "Music/Sound: Eddie Valladarez";
 controls_count = array_length_1d(controls_);
+*/
 
-
-
+description_text = "Suprise! You're a Vampire! Make it back home past the\nenemies before the sun comes up. Dont waste any time!"
+credits_text = "CREDITS\nProgramming: Sam Kopkin & John Chapman\nArtwork: Isai Oviedo\nMusic/Sound: Eddie Valladarez";
 
 
 display_set_gui_size(room_width,room_height);
