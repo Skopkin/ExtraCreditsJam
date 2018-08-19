@@ -18,3 +18,5 @@ instance_create_layer(x+360, y+9, "Roulette", rouletteArray[index]);
 index++;
 
 alarm[0] = 90;
+
+audio_sound_gain(snd_music_roulette, 1, 1);

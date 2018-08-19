@@ -24,9 +24,8 @@ highlighted_text = c_red;
 
 //Pause menu buttons
 button[0] = "Resume"
-button[1] = "Options"
-button[2] = "Restart"
-button[3] = "Exit"
+button[1] = "Restart"
+button[2] = "Exit"
 buttons = array_length_1d(button);
 
 // Current and previously optionected menu option values
@@ -39,3 +38,7 @@ player_hp = max_hp;
 recharging = false;
 rechargeCD = 120;
 hp_color = make_color_rgb(236,69,124);
+
+// Music
+audio_play_sound(snd_music_main,5,true);
+audio_play_sound(snd_music_roulette, 6, true);

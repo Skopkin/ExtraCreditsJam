@@ -9,6 +9,8 @@ if (spinning) {
 	ready = false;
 	slowing = false;
 	stopped = true;
+	audio_play_sound(snd_roulette_lock, 8, false);
+	audio_sound_gain(snd_music_roulette, 0, 1);
 	event_user(1);
 }
 

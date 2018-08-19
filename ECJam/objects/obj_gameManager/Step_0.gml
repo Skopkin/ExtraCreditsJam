@@ -1,6 +1,7 @@
 // Pause game if Escape key is pressed
 if(keyboard_check_pressed(vk_escape)){
     if(!paused){
+		audio_play_sound(snd_menu_confirm,5,false);
 		paused = true;
 		if(!sprite_exists(screenShot)){
 			// Create a screenshot of the current game screen
@@ -8,6 +9,7 @@ if(keyboard_check_pressed(vk_escape)){
 	    }
 	} else{ // if paused, unpause
 		paused = false;
+		audio_play_sound(snd_menu_confirm,5,false);
 	}
 }
 
@@ -26,7 +28,7 @@ if (paused) {
 		menu_index = 0;	
 	}
 	if (menu_index != last_optionected) {
-		//audio_play_sound();
+		audio_play_sound(snd_menu_select,5,false);
 	}
 	last_optionected = menu_index;
 } else {
