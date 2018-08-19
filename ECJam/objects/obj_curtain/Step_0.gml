@@ -8,7 +8,6 @@ switch(state){
 		if(y >= target_y){
 				// set alarm for how long it stays at bottom
 			alarm[0] = 60;
-			alarm[1] = 50;
 				//change state to change to open sprite
 			state = "Opening";
 			image_index = 1;
@@ -23,7 +22,7 @@ switch(state){
 	#region	 Curtain Going Up
 			//close curtain, move up, remove makeup and destroy self
 		y -= speed_;
-		image_index = 0;
+		//image_index = 0;
 		if(y <= 0){
 			instance_destroy();
 			

@@ -41,13 +41,13 @@ switch(state){
 			var curtain = instance_find(obj_curtain, 0);
 			if(curtain.state == "Opening"){
 				sprite_index = en_makeup_sprite;
-			} else if(curtain.state = "Raising"){
+			} /*else if(curtain.state = "Raising"){
 				sprite_index = en_idle_sprite;
 			}
 		}else{
 			//once curtain is destroyed, go back to idle
 			state = "Idle";
-		}
+		*/}
 		
 		#endregion
 		break;

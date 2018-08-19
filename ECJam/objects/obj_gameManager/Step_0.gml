@@ -43,3 +43,12 @@ if (paused) {
     instance_activate_all();
 }
 
+if (player_hp <= 0 && !recharging) {
+	show_debug_message("Need recharge");
+	recharging = true;
+	alarm[0] = rechargeCD;
+	roulette = instance_find(obj_roulette_controller,0);
+	roulette.alarm[0] = -1;
+	roulette.recharging = true;
+}
+
