@@ -1065,6 +1065,25 @@
             }
         },
         {
+            "Key": "9a435eec-9508-4742-a7e1-7c7c412c1ebb",
+            "Value": {
+                "id": "cfa59120-92de-46d4-93a0-5ad4778eb01b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_player_bite\/spr_player_bite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9d80dacb-aa85-4744-8ab3-b9fcd5652a2f",
             "Value": {
                 "id": "3c37ffda-75ef-46a6-b531-49b58ee379a4",
@@ -1081,6 +1100,25 @@
                 ],
                 "resourcePath": "sprites\/spr_roulette_pointer\/spr_roulette_pointer.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9d82a7e5-9f15-4360-a8ac-d11c49a9645c",
+            "Value": {
+                "id": "b6a4df6b-07d8-4103-b813-11977bc910d3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_bite_attack\/obj_bite_attack.yy",
+                "resourceType": "GMObject"
             }
         },
         {

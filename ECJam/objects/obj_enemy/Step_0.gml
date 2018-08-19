@@ -24,8 +24,10 @@ switch(state){
 	case "Hurt":
 	#region Hurt
 		sprite_index = en_hurt_sprite;
-		x = target_x + random_range(1,5);
-		y = start_y + random_range(-5,0);
+		if(hurt_shake){
+			x = target_x + random_range(1,5);
+			y = start_y + random_range(-5,0);
+		}
 		#endregion
 		break;
 	
