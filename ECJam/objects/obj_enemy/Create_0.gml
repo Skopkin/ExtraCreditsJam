@@ -8,6 +8,10 @@ hurt_duration = 60;
 attack_duration = 15;
 
 hp = 4;
+max_hp = 4;
+hp_distance = x - sprite_width/2;
+hp_percent = (hp/max_hp)*100;
+hp_color = c_white;
 
 swipe_spd = 8;
 

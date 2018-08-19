@@ -24,7 +24,7 @@ switch(state){
 	case "Hurt":
 	#region Hurt
 		sprite_index = en_hurt_sprite;
-		if(hurt_shake){
+		if(hurt_shake && hp > 0){
 			x = target_x + random_range(1,5);
 			y = start_y + random_range(-5,0);
 		}
@@ -58,3 +58,6 @@ switch(state){
 		#endregion
 		break;
 }
+
+hp_percent = (hp/max_hp)*100;
+hp_distance = x - sprite_width/2;
