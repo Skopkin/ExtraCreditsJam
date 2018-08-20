@@ -1,9 +1,9 @@
 instance_create_depth(0,0,100,obj_set_input);
 
 // The different available options on start screen
-option[0] = "Start";
-option[1] = "About Game";
-option[2] = "Exit";
+option[0] = "START";
+option[1] = "CREDITS";
+option[2] = "EXIT";
 option_count = array_length_1d(option);
 
 
@@ -12,16 +12,16 @@ selected_option = 0;
 
 //variables for drawing of options
 selection_yoffset = 3;
-option_ypos_start =room_height * 2/3;
+option_ypos_start = room_height * 2/3 - 110;
 c_norm = c_white;
 c_high = make_color_rgb(255,242,0);
 	//# of pixels vertical spacing between buttons
-option_spacing = 32;
+option_spacing = 44;
 
 // variables for title placement and drawing
 title_spr_width = sprite_get_width(spr_title_icon);
 title_xpos = room_width/2 - title_spr_width/2;
-title_ystart = 100;
+title_ystart = 35;
 title_ypos = title_ystart;
 title_amplitude = 5;
 title_speed = .25;
@@ -44,8 +44,7 @@ controls_[9] = "Music/Sound: Eddie Valladares";
 controls_count = array_length_1d(controls_);
 */
 
-description_text = "Suprise! You're a Vampire! Make it back home past the\nenemies before the sun comes up. Dont waste any time!"
-credits_text = "CREDITS\nProgramming: Sam Kopkin & John Chapman\nArtwork: Isai Oviedo\nMusic/Sound: Eddie Valladarez";
+credits_text = "Programming: Sam Kopkin & John Chapman\n\nArtwork: Isai Oviedo\n\nMusic/Sound: Eddie Valladarez";
 
 
 display_set_gui_size(room_width,room_height);
