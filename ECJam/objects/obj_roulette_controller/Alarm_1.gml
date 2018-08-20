@@ -1,5 +1,6 @@
 /// @description Enemy attack phase
-if (currentEnemy = instance_find(obj_enemy, 0)) {
+currentEnemy = instance_find(obj_enemy, 0)
+if (currentEnemy.state != "Makeup") {
 	enemy_attack();
 	alarm[0] = 60;
 } else {
