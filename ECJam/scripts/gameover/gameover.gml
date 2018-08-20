@@ -4,6 +4,7 @@
 win_lose = argument0;
 audio_stop_all();
 if(win_lose){
+	audio_play_sound(snd_win_state, 9, false);
 	moon = instance_find(obj_moon,0);
 	distance = moon.path_position;
 	winText = "";
@@ -16,5 +17,6 @@ if(win_lose){
 	}
 	screen_transition(.005,room_menu, winText);
 } else {
+	audio_play_sound(snd_lose_state, 9, false);
 	screen_transition(.005,room_menu, "GAME OVER\nThe morning sun has vanquished the night!");
 }
