@@ -23,7 +23,7 @@ if(keyboard_check_pressed(vk_enter) or (keyboard_check_pressed(vk_space))){
 	audio_play_sound(snd_menu_confirm,5,false);
 	switch(selected_option){
 		case 0: //Start Game
-			screen_transition(.05,room_main, "");
+			screen_transition(.2,room_tutorial, "");
 			break;
 		case 1: //Controls
 			in_submenu = !in_submenu;
