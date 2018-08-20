@@ -24,9 +24,12 @@ switch(state){
 	case "Hurt":
 	#region Hurt
 		sprite_index = en_hurt_sprite;
-		if(hurt_shake && hp > 0){
+		if(hurt_shake and hp > 0){
+			
 			x = target_x + random_range(1,5);
 			y = start_y + random_range(-5,0);
+			image_xscale = .8;
+			image_yscale = .8;
 		}
 		#endregion
 		break;
@@ -36,6 +39,8 @@ switch(state){
 		sprite_index = en_attack_sprite;
 		x = target_x;
 		y = start_y;
+		//image_xscale = 1;
+		//image_yscale = 1;
 		#endregion
 		break;
 	
@@ -62,3 +67,8 @@ switch(state){
 
 hp_percent = (hp/max_hp)*100;
 hp_distance = x - sprite_width/2;
+
+//make sure youre 
+if(image_alpha > 1){
+	image_alpha = 1;
+}
