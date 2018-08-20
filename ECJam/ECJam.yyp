@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1c40730b-fcc4-43cb-bd15-051e36060f08",
+            "Value": {
+                "id": "51950f51-ac81-454c-8f81-2e8eb21e4e06",
+                "resourcePath": "sprites\\spr_roulette_cracks\\spr_roulette_cracks.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "22a892b5-2ced-404b-90ce-0f3972fcd0a7",
             "Value": {
                 "id": "db9c96f9-10b0-476f-9361-bb3571c571e7",
