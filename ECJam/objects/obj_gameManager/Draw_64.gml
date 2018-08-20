@@ -18,4 +18,4 @@ if (paused) {
 }
 
 hp_percent = (player_hp/max_hp)*100;
-draw_healthbar(855, 700, 945, 734,hp_percent,c_black,hp_color,hp_color,0,true,false);
+draw_healthbar(857, 704, 945, 735,hp_percent,c_black,hp_color,hp_color,0,true,false);
