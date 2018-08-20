@@ -1,3 +1,4 @@
+instance_create_depth(0,0,100,obj_set_input);
 
 // The different available options on start screen
 option[0] = "Start";
@@ -13,7 +14,7 @@ selected_option = 0;
 selection_yoffset = 3;
 option_ypos_start =room_height * 2/3;
 c_norm = c_white;
-c_high = c_yellow;
+c_high = make_color_rgb(255,242,0);
 	//# of pixels vertical spacing between buttons
 option_spacing = 32;
 
@@ -39,7 +40,7 @@ controls_[5] = "";
 controls_[6] = "CREDITS";
 controls_[7] = "Programming: Sam Kopkin & John Chapman";
 controls_[8] = "Artwork: Isai Oviedo";
-controls_[9] = "Music/Sound: Eddie Valladarez";
+controls_[9] = "Music/Sound: Eddie Valladares";
 controls_count = array_length_1d(controls_);
 */
 

@@ -1,4 +1,5 @@
 draw_set_halign(fa_center);
+draw_set_font(fnt_main);
 
 if(title_falling){// animate the title going up and down
 	title_ypos = approach(title_ypos,title_ystart + title_amplitude, title_speed);

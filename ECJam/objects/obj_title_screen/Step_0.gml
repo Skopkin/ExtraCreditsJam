@@ -19,7 +19,7 @@ if(!in_submenu){
 	
 }
 
-if(keyboard_check_pressed(vk_enter)){
+if(keyboard_check_pressed(vk_enter) or (keyboard_check_pressed(vk_space))){
 	audio_play_sound(snd_menu_confirm,5,false);
 	switch(selected_option){
 		case 0: //Start Game
