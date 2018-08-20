@@ -27,7 +27,11 @@ switch (atk_type) {
 			audio_play_sound(snd_bite,8,false);
 			manager = instance_find(obj_gameManager,0);
 			if (manager.player_hp < manager.max_hp) {
-				manager.player_hp+=2;
+				if (manager.player_hp == manager.max_hp-1) {
+					manager.player_hp++;
+				} else {
+					manager.player_hp+=2;
+				}
 				audio_play_sound(snd_player_heal, 8, false);
 			}
 		}
