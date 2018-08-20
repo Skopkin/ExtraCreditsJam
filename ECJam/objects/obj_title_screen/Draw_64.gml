@@ -45,5 +45,4 @@ if(in_submenu){ // draw appropriate sub-menu options
 	}*/
 	draw_text_color(view_wport[0]/2, view_hport[0]*.10, description_text,c_white,c_white,c_white,c_white,1);
 	draw_text_color(view_wport[0]/2, view_hport[0]*.80, credits_text,c_white,c_white,c_white,c_white,1);
-	draw_sprite(spr_instructions, 0, 0, view_hport[0]/2);
 }
