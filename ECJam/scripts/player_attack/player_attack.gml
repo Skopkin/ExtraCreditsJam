@@ -36,7 +36,7 @@ switch (atk_type) {
 	default: show_debug_message("oh fuck");
 }
 
-if(my_enemy.state == "Idle"){
+if(my_enemy.state == "Idle" || my_enemy.state == "Makeup"){
 	my_enemy.alarm[0] = my_enemy.hurt_duration;
 	my_enemy.alarm[2] = 10;
 }

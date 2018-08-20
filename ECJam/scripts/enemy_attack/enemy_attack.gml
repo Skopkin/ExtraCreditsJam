@@ -11,7 +11,7 @@ if(my_enemy.state != "Block"){
 			roulette.rouletteArray[1] = obj_hurt_self;
 			roulette.rouletteArray[3] = obj_hurt_self;
 			roulette.debuffed = true;
-			show_debug_message("test");
+			audio_play_sound(snd_wizard_attack, 7, false);
 		}
 	}
 }

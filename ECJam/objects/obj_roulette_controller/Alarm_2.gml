@@ -1,2 +1,7 @@
 /// @description Reset button sprite
-button.sprite_index = button.sprReady;
+if (button.sprite_index == button.sprPressedPlay) {
+	show_debug_message("test");
+	button.sprite_index = button.sprReadyPlay;
+} else {
+	button.sprite_index = button.sprReady;
+}
