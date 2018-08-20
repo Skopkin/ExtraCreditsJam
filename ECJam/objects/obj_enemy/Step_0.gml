@@ -18,6 +18,9 @@ switch(state){
 	case "Idle":
 	#region Idle
 		sprite_index = en_idle_sprite;
+		image_xscale = 1;
+		image_yscale = 1;
+		y = start_y;
 		#endregion
 		break;
 		
@@ -27,9 +30,9 @@ switch(state){
 		if(hurt_shake and hp > 0){
 			
 			x = target_x + random_range(1,5);
-			y = start_y + random_range(-5,0);
-			image_xscale = .8;
-			image_yscale = .8;
+			y = start_y - 2 + random_range(-5,0);
+			image_xscale = .9;
+			image_yscale = .9;
 		}
 		#endregion
 		break;
@@ -38,9 +41,9 @@ switch(state){
 	#region Attack
 		sprite_index = en_attack_sprite;
 		x = target_x;
-		y = start_y;
-		//image_xscale = 1;
-		//image_yscale = 1;
+		y = start_y + 2;
+		image_xscale = 1.1;
+		image_yscale = 1.1;
 		#endregion
 		break;
 	
