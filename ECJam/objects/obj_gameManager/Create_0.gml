@@ -19,8 +19,8 @@ menu_y = view_height*.5;
 button_h = 64;
 
 // Pause menu text color defaults
-normal_text = c_ltgray;
-highlighted_text = c_red;
+normal_text = c_white;
+highlighted_text = make_color_rgb(255,242,0);
 
 //Pause menu buttons
 button[0] = "Resume"
