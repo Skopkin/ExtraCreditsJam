@@ -5,7 +5,7 @@ en_hurt_sprite = spr_turt_hurt;
 en_makeup_sprite = spr_turt_makeup;
 en_idle_sprite = spr_turt_idle;
 
-max_hp = 20;
+max_hp = 15;
 hp = max_hp;
 hp_color = make_color_rgb(255,175,90);
 
