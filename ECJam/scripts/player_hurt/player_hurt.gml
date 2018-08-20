@@ -4,5 +4,5 @@ manager.player_hp--;
 if (manager.player_hp > 0) {
 	audio_play_sound(snd_player_hurt, 8, false);
 } else {
-	audio_play_sound(snd_roulette_break, 8, false);
+	audio_play_sound(snd_break, 8, false);
 }
